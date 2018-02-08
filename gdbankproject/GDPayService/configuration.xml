@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<configuration>
+	<!-- 选择程序的版本，可选formal,test,debug-->
+  	<ProgramVersion>debug</ProgramVersion>
+  	<!-- 使用formal环境中时需要配置的参数 -->
+  	<formal>
+    	<port>9340</port>
+    	<ipAddress>http://10.27.109.138:8080/notify/notify_start?</ipAddress>
+    	<key>z19EReMdHJwGsw2p</key>
+    	<log4jPropertiesName>formallog4j.properties</log4jPropertiesName>
+    	<description>formal环境参数</description>
+  	</formal>
+  	<!-- END -->
+  	
+  	<!-- 使用test环境中时需要配置的参数 -->
+  	<test>
+    	<port>9330</port>
+    	<ipAddress>http://10.27.109.140:8080/notify/notify_start?</ipAddress>
+    	<key>f0mcn6r0ZLYg4EZZ</key>
+    	<log4jPropertiesName>testlog4j.properties</log4jPropertiesName>
+    	<description>test环境参数</description>
+  	</test>
+  	<!-- END -->
+  	
+  	<!-- 使用debug环境中时需要配置的参数 -->
+  	<debug>
+    	<port>9320</port>
+    	<ipAddress>http://localhost:8080/notify/notify_start?</ipAddress>
+    	<key>f0mcn6r0ZLYg4EZZ</key>
+    	<log4jPropertiesName>debuglog4j.properties</log4jPropertiesName>
+    	<description>debug环境参数</description>
+  	</debug>
+  	<!-- END -->
+
+</configuration>

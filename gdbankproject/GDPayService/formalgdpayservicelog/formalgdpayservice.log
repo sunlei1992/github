@@ -1,0 +1,3 @@
+2014-12-10 15:42:22 [main] [GDPayService.GDPayService.main(GDPayService.java:653)] [INFO] [程序开始运行!]
+ 2014-12-10 15:42:22 [main] [GDPayService.GDPayService.main(GDPayService.java:654)] [INFO] [formal  http://10.27.109.138:8080/notify/notify_start?  9340  z19EReMdHJwGsw2p  formallog4j.properties  ]
+ 
