@@ -19,6 +19,15 @@ public class TryToRunJs {
         scriptEngine.eval("var msg2 = 'hi,'+ name;",bindings);
         Object object2 = scriptEngine.get("msg2");
         System.out.println(object2);
+
+    }
+
+    /**
+     * 测试将一个对象作为参数传递，改变后是值传递还是引用传递
+     */
+    static Integer test(Integer param){
+        param = new Integer(param+=1);
+        return param;
     }
 
 }
