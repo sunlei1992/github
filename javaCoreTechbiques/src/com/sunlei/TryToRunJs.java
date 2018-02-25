@@ -2,6 +2,9 @@ package com.sunlei;
 
 import javax.script.*;
 
+/**
+ * 尝试java运行js
+ */
 public class TryToRunJs {
     static void runJs() throws ScriptException {
         ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
