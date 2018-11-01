@@ -1,4 +1,6 @@
-
+.*
+.*/
+!/.gitignore
 testProject/.idea/workspace.xml
 testProject/.idea/workspace.xml
 javaCoreTechbiques/.idea/workspace.xml
