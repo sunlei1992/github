@@ -30,7 +30,7 @@ public class TcpEchoServer {
             log.info("Handing client at "+socketAddress);
             InputStream in = socket.getInputStream();
             OutputStream out = socket.getOutputStream();
-            while ((recvMsgSize=in.read(receviedBuf))!=-1){
+            while ((recvMsgSize=in.read(receviedBuf))!=1){
                 out.write(receviedBuf,0,recvMsgSize);
             }
             socket.close();
